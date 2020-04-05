@@ -1,0 +1,40 @@
+Shiny_App Presentation
+========================================================
+author: Rajat Mittal
+date: 06-04-2020
+autosize: true
+
+First Slide
+========================================================
+
+## Application - Number of people going to Mumbai daily
+
+The Purpose of this application is to determine the number of people going to Mumbai from different cities of India by using different mode of transport like Flight, Train, Bus, Taxi ec.
+
+- This will help us in determing the population inflow and outflow.
+- This will determine the crowdiness of a particular place.
+- This will help in the disaster management.
+========================================================
+
+###Step-1 - Slide to select the number of flights going to Mumbai daily.
+
+###Step-2 - Slide to select the number of trains going to Mumbai daily.
+
+###Step-3 - Slide to select the number of buses going to Mumbai daily.
+
+###Step-4 - Slide to select the number of taxis going to Mumbai daily.
+
+========================================================
+
+```{r, echo=False, results=TRUE}
+library(knitr)    
+library(ggplot2)  
+library(png)
+library(imager)
+myimg <- load.image('C:/Users/Lenovo/Desktop/Shiny_App Presentation-figure/Capture1.JPG')
+plot(myimg)
+
+myimg2 <- load.image("C:/Users/Lenovo/Desktop/Shiny_App Presentation-figure/Capture2.PNG")
+plot(myimg2)
+```
+  
